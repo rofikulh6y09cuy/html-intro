@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jamal ar mayer pitha</title>
 </head>
+<style>
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+</style>
 <body>
     <header>
 
@@ -14,8 +20,27 @@
             <h2>please fill up the form</h2>
             <form>
                 <label for="name">you name:
-                    <input id="name">
+                    <input type="text" placeholder="your name">
                 </label>
+                <label for="email">your email:
+                    <input type="text" placeholder="your email">
+                </label>
+                <label for="your phone"> your phone number:
+                    <input type="" placeholder="your phone number">
+                </label>
+
+                <fieldset>
+                    <legend>pic one pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">chitoy
+                        <label for="vapa">
+                            <input type="radio" name="pitha" id="vapa">vapa
+                            <label for="pui">
+                                <input type="radio" name="pitha" id="puri">puri
+                        </label>
+                        </label>
+                    </label>
+                </fieldset>
             </form>
         </section>
     </main>
